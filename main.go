@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 
-	solver "ant-farm/internal/solver"
+	solver "antfarm/internal/solver"
 )
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
